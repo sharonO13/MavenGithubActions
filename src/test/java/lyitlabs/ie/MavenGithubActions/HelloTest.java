@@ -57,7 +57,7 @@ public class HelloTest {
 	public void testGetsWhat() {
 		
 		Hello.setsWhat("getTest");		
-		assertEquals(Hello.getsWhat(), "failTest");
+		assertEquals(Hello.getsWhat(), "getTest");
 		
 	}
 
